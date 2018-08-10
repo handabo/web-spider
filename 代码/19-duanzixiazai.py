@@ -59,7 +59,10 @@ def get_text(href):
     ret = pattern.search(content)
     # print(ret.group(1))
     # exit()
-    return ret.group(1)
+    # 用一个正则表达式, 将img标签全部替换为空
+    pattern = re.compile(r'<img .*?>')
+    text = pattern.sub('', ret.group(1))
+    return text
 
 
 if __name__ == '__main__':
