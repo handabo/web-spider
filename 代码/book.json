@@ -1,0 +1,31 @@
+{ "store": {
+    "book": [ 
+      { "category": "文学",
+        "author": "路遥",
+        "title": "平凡的世界",
+        "price": 18.95
+      },
+      { "category": "文学",
+        "author": "霍达",
+        "title": "穆斯林的葬礼",
+        "price": 32.99
+      },
+      { "category": "科技",
+        "author": "崔庆才",
+        "title": "Python网络爬虫开发实战",
+        "isbn": "0-553-21311-3",
+        "price": 68.99
+      },
+      { "category": "历史",
+        "author": "当年明月",
+        "title": "明朝那些事儿",
+        "isbn": "0-395-19395-8",
+        "price": 32.99
+      }
+    ],
+    "bicycle": {
+      "color": "red",
+      "price": 19.95
+    }
+  }
+}
